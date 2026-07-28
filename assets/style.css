@@ -352,7 +352,7 @@ a.title:hover {
 }
 
 .pub-figure {
-  flex: 0 0 200px;
+  flex: 0 0 260px;
   margin: 0;
 }
 
@@ -494,7 +494,7 @@ a.title:hover {
 
   .pub-figure {
     flex-basis: auto;
-    width: 220px;
+    width: 260px;
   }
 
   .news-list li {
