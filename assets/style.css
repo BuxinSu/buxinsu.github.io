@@ -339,6 +339,43 @@ a.title:hover {
   margin-left: 0.65rem;
 }
 
+/* Featured papers with press-clipping figure */
+
+.pub-featured {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pub-main {
+  flex: 1;
+}
+
+.pub-figure {
+  flex: 0 0 200px;
+  margin: 0;
+}
+
+.pub-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.pub-figure a:first-child:hover img {
+  border-color: var(--accent);
+}
+
+.pub-figure figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 550;
+  text-align: center;
+}
+
 /* ---------- News & awards feed ---------- */
 
 .news-list {
@@ -448,6 +485,16 @@ a.title:hover {
 
   .hero h1 {
     font-size: 1.8rem;
+  }
+
+  .pub-featured {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pub-figure {
+    flex-basis: auto;
+    width: 220px;
   }
 
   .news-list li {
