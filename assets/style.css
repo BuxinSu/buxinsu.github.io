@@ -339,6 +339,12 @@ a.title:hover {
   margin-left: 0.65rem;
 }
 
+.pub-discussion {
+  margin-top: 0.55rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 /* Featured papers with press-clipping figure */
 
 .pub-featured {
@@ -349,6 +355,7 @@ a.title:hover {
 
 .pub-main {
   flex: 1;
+  min-width: 0;
 }
 
 .pub-figure {
@@ -495,6 +502,7 @@ a.title:hover {
   .pub-figure {
     flex-basis: auto;
     width: 260px;
+    max-width: 100%;
   }
 
   .news-list li {
